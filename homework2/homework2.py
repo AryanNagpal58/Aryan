@@ -21,8 +21,10 @@ platform for which the command line is used for typing in commands to give to a 
 
 # 3) How does Windows PowerShell differ from Git Bash?
 '''
-Windows PowerShell is different from GitBash because they are under different domains,
-Windows PowerShell is specific to __________ and Git Bash is specific to ____________.
+Windows PowerShell is different from GitBash because they are under different domains of creation.
+Windows PowerShell is the original PowerShell for Windows computers, and is made specifically for
+Windows computers, while Git Bash is a package that is used for coding Git on a Windows computer, and 
+emulates the original Windows PowerShell interface, but using Linus for Git.
 '''
 # 4) What’s the difference between Anaconda, conda, and Python?
 '''
