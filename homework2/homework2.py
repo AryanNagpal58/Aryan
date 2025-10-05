@@ -56,7 +56,7 @@ directory being worked in will be shown.
 Absolute path:
 /c/Users/Aryan Nagpal/python_decal_fa25/course_assignments/homework2
 Relative path:
-../python_decal_fa25/course_assignments/homework2
+../../../python_decal_fa25/course_assignments/homework2
 '''
 # 10) What command lets you move from "course_assignments/homework2/" to "course_assignments/"?
 '''
