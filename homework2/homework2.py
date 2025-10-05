@@ -7,9 +7,10 @@
 
 # 1) What’s the difference between Git, GitHub, and Git Bash?
 '''
-The difference between the three is that Git is the original system of free and open
-coding, GitHub is a platform used for saving and sharing Git repositories over the internet,
-and GitBash is the command line used by Windows computers to run Git commands.
+The difference between the three is that Git is a version control system which tracks
+changes in coding over time, GitHub is a website that hosts the priorly mentioned
+Git repositories online and allows them to be shared and edited by multiple people, and
+GitBash is the online interface which can be used to edit coding with Git.
 '''
 
 # 2) What’s the difference between the terminal and the command line?
@@ -40,9 +41,8 @@ Jupyter Notebook is a web-based app for editing, sharing, and combining live cod
 '''
 # 7) What does ~/ mean?
 '''
-~/ means multiple things in coding. It is mainly used as a 'not' operator, flipping
-bits in binary. Mainly this is seen in the command 'cd~', as it allows for taking the directory
-back to the beginning, almost like a reset. It is used in many ways to say the opposite of what is already expected in a code.'''
+~/ is the symbol used for a home directory in the pathway of objects.
+'''
 # 8) What’s the difference between an absolute path and a relative path?
 '''
 The difference between an absolute path and a relative path in coding is that an absolute path displays all
