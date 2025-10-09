@@ -24,7 +24,7 @@ platform for which the command line is used for typing in commands to give to a 
 Windows PowerShell is different from GitBash because they are under different domains of creation.
 Windows PowerShell is the original PowerShell for Windows computers, and is made specifically for
 Windows computers, while Git Bash is a package that is used for coding Git on a Windows computer, and 
-emulates the original Windows PowerShell interface, but using Linus for Git.
+emulates the original Windows PowerShell interface, but using Linux for coding with Git.
 '''
 # 4) What’s the difference between Anaconda, conda, and Python?
 '''
