@@ -34,13 +34,16 @@ numbers = list(range(21))
 
 def get_first_15(numbers):
     new_list = []
+    #creates a new list for the returned output
     for number in numbers:
         if number < 15:
+            #makes it so that only the numbers less than 15, or the first 15 from 0-14, wil be a part of the new list
             new_list.append(number)
     return new_list
 
 def get_every_5th(lst):
     new_list = lst[::4]
+    #Uses striving so that, from the index of zero, every 5th item is taken and put into the new list
     return new_list
 
 def reverse_and_stride(lst):
@@ -48,8 +51,9 @@ def reverse_and_stride(lst):
     i = 1
     while i <= len(lst):
         new_list.append(lst[-i])
+        #Creates a new list, and appends all of the items from the original list but it reverse order
         i += 1
-
+    #Makes the returned reversed list stride so that only every 3rd item is actually given as a part of the output for the list
     return new_list[::2]
 
 step1 = get_first_15(numbers)
@@ -69,7 +73,9 @@ nested_numbers = [
 ]
 
 print(nested_numbers[2][0:3])
+#Nested list, printing the values of the 3rd row
 print(nested_numbers[1][1])
+#Nested list, printing the second column of the second row
 nested_numbers.append([10, 11, 12])
 print(nested_numbers)
 
@@ -77,6 +83,7 @@ def sum_nested(nested_numbers):
     sum = 0
     for row in nested_numbers:
         for column in row:
+            #nested for loop to go through every item for each row, and then through each row
             sum += column
     return sum
 
@@ -104,6 +111,11 @@ def replace_multiples_3(list):
     new_list = []
     for row in list:
         row_list = []
+        #I had similar errors here to what I have before, where I was getting the output as just the original list
+        #It seems that originally, I tried to assign every value that was a multiple of three the question mark, by calling
+        #the item as list[row][column], and in doing so, it would only be a temporary change instead of a permanent change.
+        #To fix this, I rewrote it with a new, empty list, and appended all items from the original list, except for the multiples of 3,
+        #which I then appended the question marks instead. Again, I was able to get some help from ChatGPT when I was having trouble with some of this code, I hope that's okay.
         for column in row:
             if column % 3 == 0:
                 row_list.append("?")
